@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 224, 207);
+}
+.container{
+    width: 20%;
+    height: 420px;
+
+}
+
+.up{
+    width: 100%;
+    height: 120px;
+    background-color: red;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: rgb(204, 198, 190);
+    font-size: 70px;
+    font-weight: 500;
+}
+.down{
+    width: 100%;
+    height: 300px;
+    border-top: none;
+    background-color: rgb(243, 243, 243);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:10px 5px 0 5px;
+}
+.down .num{
+    width: 23%;
+    height: 50px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 800;
+    cursor: pointer;
+}
+.row{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.equal{
+    background-color: red !important;
+}
+
+.up{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.delete{
+    width: 50% !important;
+    height: 50px ;
+    background-color: yellowgreen !important;
+    border-radius: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 800;
+    cursor: pointer;
+}
+.num:hover{
+background-color: gray;
+}
+.equal:hover{
+    background-color: rgb(122, 78, 78) !important;
+}
+.delete:hover{
+    background-color: yellow;
+}
